@@ -32,6 +32,8 @@ function App() {
     window.navigator.clipboard.writeText(password)
   }, [password])
 
+  //useEffect hook 
+
   useEffect(() => {
     passwordgenerator()
   }, [length, addNumber, addCharacter, setPassword])
